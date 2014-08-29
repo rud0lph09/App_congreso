@@ -34,6 +34,7 @@
 		9DD8477419A3A91B00294C32 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8477319A3A91B00294C32 /* HomeViewController.m */; };
 		9DD8477719A3AA6500294C32 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8477619A3AA6500294C32 /* MenuTableViewController.m */; };
 		9DD8477A19A3AAF400294C32 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8477919A3AAF400294C32 /* NavigationController.m */; };
+		F7F078A219B1230A001BF85B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D10FCF7199D4D7100B36880 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F078A219B1230A001BF85B /* AppDelegate.m in Sources */,
 				9D10FD13199D4D7100B36880 /* SideMenuTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,12 +420,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CODE_SIGN_FLAGS = "";
-				OTHER_LDFLAGS = (
-					Other,
-					Linker,
-					"Flags:",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -456,12 +453,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CODE_SIGN_FLAGS = "";
-				OTHER_LDFLAGS = (
-					Other,
-					Linker,
-					"Flags:",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
